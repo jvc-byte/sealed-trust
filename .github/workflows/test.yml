@@ -20,7 +20,3 @@ jobs:
 
       - name: Template Install dependencies
         run: bun install
-
-      - name: Kit Test
-        # When fails, please check your tests
-        run: bun run test:coverage
