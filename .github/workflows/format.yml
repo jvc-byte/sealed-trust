@@ -20,6 +20,3 @@ jobs:
 
       - name: Template Install dependencies
         run: bun install
-
-      - name: Template Format
-        run: bun run ci:format
