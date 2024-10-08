@@ -5,7 +5,7 @@
   </picture>
 </p>
 
-# Sealed Trust 🛡🚂
+# Sealed Trust 🛡
 
 
 <br />

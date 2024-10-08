@@ -3,26 +3,16 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  /* Palette */
-  --palette-bg-black: #fff;
-  --palette-bg-white: rgb(21, 26, 38);
-
-  /* Indicates that the element can be rendered using 
-   * the operating system dark color scheme. 
-   * https://developer.mozilla.org/en-US/docs/Web/CSS/color-scheme */
-  color-scheme: light;
-}
-
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
-
 html {
   height: 100%;
   scroll-behavior: smooth;
+  background-image: url('https://wallpapers.com/images/high/dark-teal-1920-x-1080-background-ov60286uuglabgvg.webp'); /* Replace with the actual image URL */
+  background-size: cover; /* Ensures the image covers the entire background */
+  background-position: center; /* Centers the image */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  background-attachment: fixed; /* Keeps the image fixed while scrolling */
+  margin: 0;
+  padding: 0;
 }
 
 html .font-robotoMono {
@@ -64,10 +54,6 @@ ul {
   z-index: 0;
 }
 
-.ockConnectWallet_Container span {
-  color: #030712;
-}
-
 /* i believe this is necessary because 
 of a div added by rainbowkit provider */
 body > div {
@@ -82,4 +68,24 @@ a {
 
 .templateSection > div {
   max-width: 100%;;
+}
+
+/* Navbar Styling */
+
+.navbar{
+  background-color: rgb(19, 23, 33);
+  padding: 20px;
+  border-radius: 0.5rem;
+  margin-top: 2rem;
+  box-shadow: 0 4px 8px rgba(92, 190, 197, 0.2), 0 6px 20px rgba(92, 190, 197, 0.19);
+}
+
+.footer {
+  background-color: rgb(19, 23, 33);
+  padding: 2rem;
+  padding-bottom: 2rem;
+  border-radius: 0.5rem;
+  margin-top: 2rem;
+  margin-bottom: 5rem;
+  box-shadow: 0 4px 8px rgba(92, 190, 197, 0.2), 0 6px 20px rgba(92, 190, 197, 0.19);
 }

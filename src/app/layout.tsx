@@ -19,11 +19,11 @@ export const viewport = {
 };
 
 export const metadata: Metadata = {
-  title: 'Onchain App Template',
-  description: 'Built with OnchainKit',
+  title: 'SEALED TRUST | Seamless Transaction',
+  description: 'Your Money Safety, Our Concern',
   openGraph: {
-    title: 'Onchain App Template',
-    description: 'Built with OnchainKit',
+    title: 'SEALED TRUST',
+    description: 'Your MOney Safety, Our Concern',
     images: [`${NEXT_PUBLIC_URL}/vibes/vibes-19.png`],
   },
 };
@@ -33,7 +33,7 @@ export default function RootLayout({
 }: { children: React.ReactNode }) {
   return (
     <html lang="en">
-      <body className="flex items-center justify-center">
+      <body className="body container">
         <OnchainProviders>{children}</OnchainProviders>
       </body>
     </html>
