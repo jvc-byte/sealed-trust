@@ -74,9 +74,6 @@ a {
 
 .navbar{
   background-color: rgb(19, 23, 33);
-  padding: 20px;
-  border-radius: 0.5rem;
-  margin-top: 2rem;
   box-shadow: 0 4px 8px rgba(92, 190, 197, 0.2), 0 6px 20px rgba(92, 190, 197, 0.19);
 }
 
@@ -88,4 +85,8 @@ a {
   margin-top: 2rem;
   margin-bottom: 5rem;
   box-shadow: 0 4px 8px rgba(92, 190, 197, 0.2), 0 6px 20px rgba(92, 190, 197, 0.19);
+}
+
+.landing-pg-intro-txt {
+  letter-spacing: 0.5rem;
 }

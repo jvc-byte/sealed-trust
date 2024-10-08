@@ -33,7 +33,7 @@ export default function RootLayout({
 }: { children: React.ReactNode }) {
   return (
     <html lang="en">
-      <body className="body container">
+      <body className="body">
         <OnchainProviders>{children}</OnchainProviders>
       </body>
     </html>

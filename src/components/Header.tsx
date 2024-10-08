@@ -9,7 +9,7 @@ export default function Header() {
     const { address } = useAccount();
 
     return (
-        <div className="navbar bg-base-100 sticky top-0">
+        <div className="navbar bg-base-100 fixed top-0 z-50">
             <div className="navbar-start">
                 <div className="dropdown">
                     <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -30,12 +30,12 @@ export default function Header() {
                         <li><a className="text-gray-200 text-lg hover:text-white transition-color ease-in-out duration-500">Features</a></li>
                         <li><a className="text-gray-200 text-lg hover:text-white transition-color ease-in-out duration-500">Solutions</a></li>
                         <li><a className="text-gray-200 text-lg hover:text-white transition-color ease-in-out duration-500">Resources</a></li>
-                        <li><a className="text-gray-200 text-lg hover:text-white transition-color ease-in-out duration-500">Pricing</a></li>
+                        <li><a className="text-gray-200 text-lg hover:text-white transition-color ease-in-out duration-500">About us</a></li>
                     </ul>
                 </div>
-                <div className="flex ali">
+                <div className="flex">
                     <a href="#"><img src="favicon.ico" alt="Logo" className="w-21 h-auto" /></a>
-                    <a href="#" className="hidden xl:block btn pl-2 text-4xl text-teal-200 leading-10 tracking-widest font-extrabold bg-opacity-80 bg-base-100">
+                    <a href="#" className="hidden xl:block btn pl-2 text-3xl text-teal-200 leading-10 tracking-widest font-extrabold bg-opacity-80 bg-base-100">
                         SealedTrust
                     </a>
                 </div>
@@ -45,7 +45,7 @@ export default function Header() {
                     <li><a className="text-gray-200 text-lg hover:text-white transition-color ease-in-out duration-500">Features</a></li>
                     <li><a className="text-gray-200 text-lg hover:text-white transition-color ease-in-out duration-500">Solutions</a></li>
                     <li><a className="text-gray-200 text-lg hover:text-white transition-color ease-in-out duration-500">Resources</a></li>
-                    <li><a className="text-gray-200 text-lg hover:text-white transition-color ease-in-out duration-500">Pricing</a></li>
+                    <li><a className="text-gray-200 text-lg hover:text-white transition-color ease-in-out duration-500">About us</a></li>
                 </ul>
 
             </div>
