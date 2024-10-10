@@ -13,15 +13,15 @@ import type {
 import type { Address, ContractFunctionParameters } from 'viem';
 import {
   BASE_SEPOLIA_CHAIN_ID,
-  mintABI,
-  mintContractAddress,
+  contractAbi,
+  contractAddress,
 } from '../constants';
 
 export default function TransactionWrapper({ address }: { address: Address }) {
   const contracts = [
     {
-      address: mintContractAddress,
-      abi: mintABI,
+      address: contractAddress,
+      abi: contractAbi,
       functionName: 'mint',
       args: [address],
     },
