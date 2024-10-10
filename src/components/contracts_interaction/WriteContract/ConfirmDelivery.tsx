@@ -52,7 +52,7 @@ export function ConfirmDelivery() {
                         href={getTransactionLink(transactionHash)} 
                         target="_blank" 
                         rel="noopener noreferrer"
-                        className="text-blue-500 hover:text-blue-700 underline"
+                        className="text-blue-500 hover:text-blue-700"
                     >
                         View transaction on Sepolia Basescan
                     </a>
