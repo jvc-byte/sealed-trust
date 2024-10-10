@@ -1,7 +1,7 @@
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/coinbase/onchainkit/main/site/docs/public/logo/v0-27.png">
-    <img alt="OnchainKit logo vibes" src="https://raw.githubusercontent.com/coinbase/onchainkit/main/site/docs/public/logo/v0-27.png" width="auto">
+    <source media="(prefers-color-scheme: dark)" srcset="https://logo.png">
+    <img alt="SealedTrust Logo" src="https://thumbnail.png" width="auto">
   </picture>
 </p>
 
