@@ -5,7 +5,7 @@
   </picture>
 </p>
 
-# Sealed Trust 🛡
+# Sealed Trust <img alt="SealedTrust Logo" src="public/favicon.ico">
 
 
 <br />
