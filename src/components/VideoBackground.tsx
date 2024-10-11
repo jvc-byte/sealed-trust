@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function VideoBackground() {
     return (
-        <div className="relative w-full h-screen overflow-hidden">
+        <div className="relative w-full h-lvh overflow-hidden mt-16">
             <video
                 src="/videos/bg.mp4" // Ensure the path is correct relative to your public directory
                 autoPlay
@@ -17,9 +17,9 @@ export default function VideoBackground() {
             <div className="relative z-10 flex items-center justify-center h-full text-white">
 
                 <div className='flex-column'>
-                    <h2 className='text-base lg:text-2xl font-thin landing-pg-intro-txt leading-loose mb-10 animate-slideDown'>Your Number one platform for trustless deal-making.</h2>
-                    <h1 className="text-4xl font-bold lg:text-7xl mb-10 animate-slideUp">Ensuring funds are only released</h1>
-                    <h1 className="text-4xl font-bold mb-10 lg:text-7xl text-teal-300 animate-slideUp">when both parties meet the agreement</h1>
+                    <h2 className='text-base text-center lg:text-justify lg:text-2xl font-thin landing-pg-intro-txt leading-loose mb-10 animate-slideDown'>Your Number one platform for trustless deal-making.</h2>
+                    <h1 className="text-4xl text-center lg:text-left font-bold lg:text-7xl mb-10 animate-slideUp">Ensuring funds are only released</h1>
+                    <h1 className="text-4xl text-center lg:text-left font-bold mb-10 lg:text-7xl text-teal-300 animate-slideUp">when both parties meet the agreement</h1>
 
                     <div className="flex-column lg:flex gap-10 mt-6">
                         <button className="btn btn-outline btn-accent px-10 w-96 animate-slideUp"><svg

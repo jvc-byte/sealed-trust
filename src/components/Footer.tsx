@@ -4,13 +4,13 @@ import {
   DISCORD_LINK,
   FIGMA_LINK,
   GITHUB_LINK,
-  ONCHAINKIT_LINK,
+  DOCUMENTATION_LINK,
   TWITTER_LINK,
 } from 'src/links';
 import ArrowSvg from 'src/svg/ArrowSvg';
 
 const docLinks = [
-  { href: ONCHAINKIT_LINK, title: 'Docs' },
+  { href: DOCUMENTATION_LINK, title: 'Docs' },
   { href: GITHUB_LINK, title: 'Github' },
   { href: DISCORD_LINK, title: 'Discord' },
   { href: FIGMA_LINK, title: 'Figma' },
@@ -24,7 +24,7 @@ export default function Footer() {
         <h3 className="mr-2 mb-2 text-m md:mb-0">
           Built with love by{' '}
           <a
-            href={ONCHAINKIT_LINK}
+            href={DOCUMENTATION_LINK}
             target="_blank"
             rel="noreferrer"
             title="OnchainKit"

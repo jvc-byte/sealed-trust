@@ -48,7 +48,7 @@ export function CreateAgreement() {
                 <label className="input input-bordered flex items-center gap-2 mb-4">
                     <input name="address" type="text" className="grow" placeholder="Seller Address" required />
                 </label>
-                <label className="input input-bordered flex items-center gap-2 mb-4">
+                <label className="input input-bordered truncate flex items-center gap-2 mb-4">
                     <input className="grow" name="value" placeholder="Agreement Amount (ETH)" type="number" step="0.000000001" required />
                 </label>
                 <AgreementTextarea />

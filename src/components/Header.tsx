@@ -27,9 +27,9 @@ export default function Header() {
                         </svg>
                     </div>
                     <ul tabIndex={0} className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
-                        <li><a className="text-gray-200 text-lg hover:text-white transition-color ease-in-out duration-500">Feature Request</a></li>
-                        <li><a className="text-gray-200 text-lg hover:text-white transition-color ease-in-out duration-500">Solutions</a></li>
-                        <li><a className="text-gray-200 text-lg hover:text-white transition-color ease-in-out duration-500">Resources</a></li>
+                        <li><a className="text-gray-200 text-lg hover:text-white transition-color ease-in-out duration-500">Home</a></li>
+                        <li><a className="text-gray-200 text-lg hover:text-white transition-color ease-in-out duration-500">White paper</a></li>
+                        <li><a className="text-gray-200 text-lg hover:text-white transition-color ease-in-out duration-500">Feature request</a></li>
                         <li><a className="text-gray-200 text-lg hover:text-white transition-color ease-in-out duration-500">About us</a></li>
                     </ul>
                 </div>
@@ -42,16 +42,15 @@ export default function Header() {
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal px-1">
-                    <li><a className="text-gray-200 text-lg hover:text-white transition-color ease-in-out duration-500">Features</a></li>
-                    <li><a className="text-gray-200 text-lg hover:text-white transition-color ease-in-out duration-500">Solutions</a></li>
-                    <li><a className="text-gray-200 text-lg hover:text-white transition-color ease-in-out duration-500">Resources</a></li>
+                    <li><a className="text-gray-200 text-lg hover:text-white transition-color ease-in-out duration-500">Home</a></li>
+                    <li><a className="text-gray-200 text-lg hover:text-white transition-color ease-in-out duration-500">White paper</a></li>
+                    <li><a className="text-gray-200 text-lg hover:text-white transition-color ease-in-out duration-500">Feature request</a></li>
                     <li><a className="text-gray-200 text-lg hover:text-white transition-color ease-in-out duration-500">About us</a></li>
                 </ul>
-
             </div>
 
             <div className="navbar-end flex gap-3">
-                <SignupButton /> {!address && <LoginButton />}
+                <LoginButton /> {!address && <SignupButton />}
             </div>
 
         </div>
