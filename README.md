@@ -1,6 +1,6 @@
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://logo.png">
+    <source media="(prefers-color-scheme: dark)" srcset="public/images/logo.png">
     <img alt="SealedTrust Logo" src="public/images/logo.png" width="auto">
   </picture>
 </p>
