@@ -5,7 +5,7 @@
   </picture>
 </p>
 
-# Sealed Trust <img alt="SealedTrust Logo" src="public/favicon.ico">
+# <h1>Sealed Trust &nbsp;&nbsp;</h1> <img alt="SealedTrust Logo" src="public/favicon.ico">
 
 
 <br />
