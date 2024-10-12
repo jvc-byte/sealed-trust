@@ -48,7 +48,6 @@ export function TransferOwnership() {
             </form>
             {transactionHash && (
                 <div className="mt-4">
-                    <p>Transaction Hash: {transactionHash}</p>
                     <a 
                         href={getTransactionLink(transactionHash)} 
                         target="_blank" 

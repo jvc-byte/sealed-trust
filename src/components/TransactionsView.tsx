@@ -4,6 +4,7 @@ import { ConfirmDelivery } from './contracts_interaction/WriteContract/ConfirmDe
 import { Refund } from './contracts_interaction/WriteContract/Refund';
 import { TransferOwnership } from './contracts_interaction/WriteContract/TransferOwnership';
 import { RenounceOwnership } from './contracts_interaction/WriteContract/RenounceOwnership';
+import { GetAgreementCount } from './contracts_interaction/ReadContract/CheckAgreementCount';
 
 
 export function TransactionsView() {
@@ -24,6 +25,7 @@ export function TransactionsView() {
             <div className="mt-4 w-1/2 bg-base-100 p-6 h-1/2 container lg:mr-1 lg:ml-1 rounded-lg">
                 <h1 className="block text-justify lg:text-center pl-2 text-base lg:text-3xl text-teal-200 tracking-widest font-extrabold bg-opacity-80 bg-base-100 mb-4">Track Agreement State</h1>
 
+                <GetAgreementCount />
                 <GetAgreement />
                 <ConfirmDelivery />
                 
