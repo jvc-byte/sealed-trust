@@ -24,7 +24,7 @@ export default function ProjectDemo() {
                 <div className="relative w-full" style={{ paddingTop: '56.25%' }}> {/* 16:9 Aspect Ratio */}
                     <iframe
                         className="absolute top-0 left-0 w-full h-full"
-                        src="https://www.youtube-nocookie.com/embed/HoOt8NeLbv0?si=Iqey3wANeQ-5WGfU"
+                        src="https://www.youtube.com/embed/Q0FqGT4z7X8?si=vlDchvJU4nbhTjP9"
                         title="YouTube video player"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                         frameBorder="0"
